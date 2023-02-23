@@ -15,7 +15,9 @@ function quicksort(array) {
   return quicksort(left).concat(pivot, quicksort(right));
 };
 
-var unsorted = [23, 45, 16, 37, 3, 99, 22];
+var unsorted = [23, 45, 16, 37, 3, 99, 22, 100, 1, 53, 24];
 var sorted = quicksort(unsorted);
 
 console.log('Sorted array', sorted);
+
+console.log('I have developed a new feature, hooray!')
